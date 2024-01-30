@@ -157,10 +157,10 @@ export default function Home() {
         </ul>
       </nav>
       <main className="mt-6 py-10 bg-slate-700 rounded-lg items-center flex flex-col justify-center gap-2">
-        <h1 className="text-xl sm:text-3xl font-bold text-center text-white">
+        <h1 className="text-xl sm:text-3xl font-bold text-center text-black">
           Terabox Downloader
         </h1>
-        <p className="text-center text-white">Entrez le lien de votre fichier Terabox</p>
+        <p className="text-center text-red">Entrez le lien de votre fichier Terabox</p>
         <div className="flex flex-col justify-center ">
           <div className="self-center text-black">
             <Input
@@ -202,7 +202,7 @@ export default function Home() {
           </Button>
         </div>
         {error && (
-          <p className="bg-blue-600 text-white w-full text-center">
+          <p className="bg-red-600 text-white w-full text-center">
             {error.message}
           </p>
         )}
