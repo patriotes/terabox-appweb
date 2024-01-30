@@ -160,12 +160,12 @@ export default function Home() {
         <h1 className="text-xl sm:text-3xl font-bold text-center text-white">
           Terabox Downloader
         </h1>
-        <p className="text-center text-white">Enter your Terabox link below</p>
+        <p className="text-center text-white">Entrez le lien de votre fichier Terabox</p>
         <div className="flex flex-col justify-center ">
           <div className="self-center text-black">
             <Input
               className="max-w-80"
-              placeholder="Enter the link"
+              placeholder="Entrez le lien"
               value={link}
               onChange={(e) => setLink(e.target.value)}
             />
