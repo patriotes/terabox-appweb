@@ -150,7 +150,7 @@ export default function Home() {
         <ul>
           <li>
             {/* <Camera color="red" size={48} /> */}
-            <Button className="bg-blue-600">
+            <Button className="bg-red-600">
               <Link href="https://t.me/ArchitectePatriotes">Telegram</Link>
             </Button>
           </li>
@@ -173,7 +173,7 @@ export default function Home() {
         </div>
         <div className="self-center">
           <Button
-            className="bg-blue-600"
+            className="bg-red-600"
             disabled={disableInput}
             onClick={Submit}
           >
@@ -202,7 +202,7 @@ export default function Home() {
           </Button>
         </div>
         {error && (
-          <p className="bg-red-600 text-white w-full text-center">
+          <p className="bg-blue-600 text-white w-full text-center">
             {error.message}
           </p>
         )}
