@@ -224,6 +224,9 @@ export default function Home() {
                 alt={""}
               />
             </div>
+
+          <img src="[images.jpg](https://postimg.cc/rDYwZd65)" alt="Image" style="position: absolute; bottom: 0; left: 0; width: 100px; height: 100px;" />
+            
           </div>
           <div className="pl-3 pt-3">
             <div className="pt-10"></div>
