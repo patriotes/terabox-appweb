@@ -173,7 +173,7 @@ export default function Home() {
         </div>
         <div className="self-center">
           <Button
-            className="bg-red-600"
+            className="bg-blue-600"
             disabled={disableInput}
             onClick={Submit}
           >
@@ -202,12 +202,12 @@ export default function Home() {
           </Button>
         </div>
         {error && (
-          <p className="bg-rose-500 text-white w-full text-center">
+          <p className="bg-red-600 text-white w-full text-center">
             {error.message}
           </p>
         )}
         {err && (
-          <p className="bg-rose-500 text-white w-full text-center">{err}</p>
+          <p className="bg-red-600 text-white w-full text-center">{err}</p>
         )}
       </main>
       {data && (
