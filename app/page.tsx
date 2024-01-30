@@ -198,7 +198,7 @@ export default function Home() {
                 <span className="sr-only">Loading...</span>
               </div>
             )}
-            Download
+            Telecharger
           </Button>
         </div>
         {error && (
